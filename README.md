@@ -47,10 +47,15 @@ Then transform the XML back into a Java object and show it in its `String` repre
 After completing this project, you'll understand:
 
 • How JAXB annotations map Java objects to XML.
+
 • How to marshal and unmarshal objects.
+
 • Why a no-argument constructor is required.
+
 • Why equals() and hashCode() matter.
+
 • How to write a simple JUnit round-trip test.
+
 • How Maven builds and runs a Java project.
 
 ## Project Structure
@@ -171,7 +176,7 @@ It is possible to make the jar file executable, but you need another plugin, whi
 Back in the mid-to-late 1990s, Java was exploding and there were libraries for every imaginable purpose. I remember being amazed at the diversity. Also, XML was coming into being which I loved because it showed hierarchies. (I’m fascinated by JSON and YAML for the same reason.)
 As I looked at production code, I noticed JAXB and tried piecing together the details. But the real-life usages had many tightly coupled components, and it was hard to sort out.
 
-## What did I learn?
+## What Did I learn?
 Lots, not only about JAXB and its nomadic history, but also some quirky things like authoring a README file. I originally did the writeup in Word, but when I copy/pasted content into this README, the Markdown engine interpreted it as an image, added the image to the project, and inserted a reference to it like this: 
 
 `![img_1.png](img_1.png)`
